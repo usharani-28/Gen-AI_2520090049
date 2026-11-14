@@ -1,87 +1,59 @@
-cat > README.md <<'EOF'
-# Resume Screening using Few-Shot Prompting and Pydantic Validation
+# Education Fee Query Assistant using RAG and Multilingual Tokenization
 
-## Project Details
+## Project Overview
+The Education Fee Query Assistant is an AI-powered system designed to help students and parents get accurate information about college fee structures, payment deadlines, scholarships, refunds, and other fee-related queries.
 
+The system uses Retrieval-Augmented Generation (RAG) and multilingual tokenization to retrieve relevant information from college documents and provide easy-to-understand answers.
+
+## Objectives
+- Provide quick responses to fee-related queries.
+- Retrieve accurate information from college documents.
+- Support multiple languages.
+- Reduce manual work for college administration.
+- Improve accessibility to fee information.
+
+## Technologies Used
+- Python
+- Generative AI / Large Language Models
+- Retrieval-Augmented Generation (RAG)
+- Multilingual Tokenization
+- FastAPI
+- React
+- Vector Database
+
+## Key Features
+- AI-powered fee query assistance.
+- Document-based information retrieval.
+- Multilingual query support.
+- Accurate and context-aware responses.
+- User-friendly interface.
+
+## Project Structure
+```text
+Education-Fee-Query-Assistant/
+├── src/
+├── docs/
+├── data/
+├── results/
+├── reports/
+└── README.md
+```
+
+## Expected Outcome
+A multilingual AI assistant that helps students and parents understand educational fee information through fast, reliable, and document-based responses.
+
+## Future Scope
+- Integration with college ERP systems.
+- Voice-based fee assistance.
+- Support for additional Indian languages.
+- Automated fee reminders.
+- Personalized student fee information.
+
+## Team Details
+- Team Members: To be updated
+- Branch: CS&IT
+- Academic Year: 2nd Year
 - Project ID: 13
-- Team ID: 13
-- Branch: CSIT
-- Academic Year: 2026-2027
-- Project Domain: Generative AI
-
-## Team Members
-
-1. Name: Usharani
-   Student ID: 2520090049
-
-2. Name: To be updated
-   Student ID: To be updated
-
-3. Name: To be updated
-   Student ID: To be updated
 
 ## Supervisor
-
-To be updated
-
-## Abstract
-
-This project aims to develop an AI-powered resume screening system using Few-Shot Prompting and Pydantic Validation. The system uses a Large Language Model (LLM) to analyze resumes, extract important candidate information, and evaluate candidate profiles based on specified job requirements. Few-shot prompting provides examples to guide the model in generating consistent outputs, while Pydantic ensures structured data validation and reliable responses. The project aims to improve the efficiency, consistency, and accuracy of the initial resume screening process.
-
-## Technologies
-
-- Python
-- Large Language Models (LLMs)
-- Few-Shot Prompting
-- Pydantic
-- FastAPI (planned)
-- Git and GitHub
-
-## Repository Structure
-
-- src/ - Source code
-- docs/ - Project documentation
-- data/ - Sample or referenced datasets
-- results/ - Output results and evaluation
-- reports/ - Project reports and deliverables
-
-## Setup Instructions
-
-1. Clone the repository:
-
-   git clone https://github.com/usharani-28/Gen-AI_2520090049.git
-
-2. Navigate into the project directory:
-
-   cd Gen-AI_2520090049
-
-3. Create a Python virtual environment:
-
-   python -m venv .venv
-
-4. Activate the environment:
-
-   Windows:
-   .venv\Scripts\activate
-
-5. Install dependencies (after creating requirements.txt):
-
-   pip install -r requirements.txt
-
-## Execution
-
-Execution instructions will be updated as development progresses.
-
-## Current Project Phase
-
-Phase 1 - Project Selection and Repository Setup
-
-Status: In Progress
-
-## Contribution Guidelines
-
-- Every team member must contribute using their own GitHub account.
-- At least one meaningful commit must be made every week.
-- Phase deliverables must be tagged appropriately.
-- Never upload API keys, passwords, or confidential resume data.
-EOF
+To be updated.
